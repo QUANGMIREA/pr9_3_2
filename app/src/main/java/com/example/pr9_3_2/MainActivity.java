@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void readFile() {
         File storageDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
-        File file = new File(storageDir, "example.txt");
+        File file = new File(storageDir, "example12363.txt");
         if (file.exists()) {
             StringBuilder text = new StringBuilder();
             try {
